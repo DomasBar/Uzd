@@ -1,0 +1,205 @@
+html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+/* Header Logo */
+
+header a #logo {
+    width: 200px;
+    padding: 2em 0 0.5em 0;
+}
+
+/* Header */
+/* #header {
+    position: relative;
+} */
+#top-l{
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+}
+#top-r {
+    position: absolute;
+    display: flex;
+    width: 40%;
+    height: 400px;
+    left: 15em;
+    top: 50px;
+}
+
+@media screen and (min-width:600px) {  
+    #header {
+        display: flex;
+        justify-content: space-between;
+    }
+    #top-l {
+        display: block;
+        width: 50%;
+    }
+    #top-r {
+        position: relative;
+        display: block;
+        justify-items: end;
+
+        left: 200px;
+        bottom: 20px;
+
+}
+
+/* @media screen and (max-width:450px) {
+    #top-r {
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        flex-grow: 10em;
+    }
+} */
+
+
+/* Wrapper/Div */
+
+
+.wrapper {
+    margin: 1em;
+    padding: 0 1.25em;
+}
+
+.pagrdiv {
+    width: 100%;
+    /* border: 1px solid green */
+}
+
+
+
+/* @media screen and (min-width:600px) {
+    .wrapper, .pagrdiv {
+        width: 100%;
+        max-width: 68em;
+        margin: 0 auto;
+        padding: 0 1em;
+        box-sizing: border-box;
+    }
+} */
+
+/* Žodžiai */
+
+.Launching {
+    color: rgb(238, 130, 148);
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.h1fat {
+    font-weight: 900;
+}
+
+.h1slim {
+    font-weight: 500;
+}
+
+p {
+    color: rgb(119, 117, 117);
+}
+
+/* Button */
+
+.button {
+    background-color: white;
+    color: black;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 1em 2em 1em 2em;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+    border-top-color: green;
+    border-left-color: blue;
+    border-right-color: pink;
+    border-bottom-color: yellow;
+    
+}
+
+/* Background */
+#backgroundtop {
+    width: 100%;
+    background-image: url(background.svg);
+    background-size: cover;
+    padding: 4em 1em 1em 0;
+    margin-top: 3em;
+    text-align: start;
+}
+
+.coloredwords {
+    padding-left: 15px;
+}
+
+
+/* Companies */
+
+#companies {
+    width: 100%;
+    margin: 4em 0 4em 0;
+}
+
+#comp {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2em 2em 0;
+}
+
+@media screen and (min-width:736px) {
+    #comp {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+
+}
+
+
+/* @media screen and (min-width: 600px) {
+    #comp {
+        margin: 0 2em 0 2em;
+    }
+} */
+
+
+/* Pictures */
+#pictures {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+
+}
+
+.bg-mid {
+    background-color: rgb(241, 238, 238);
+}
+
+.midwords {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.midwords .mid-l {
+    text-align: left;
+    padding-left: 1em;
+}
+.midwords .mid-r {
+    text-align: end;
+    padding-left: 1.5em;
+}
+
+/* Pictures Zodziai */
+
+.gloop {
+    color: orange;
+}
+.pilka {
+    color: grey;
+}
